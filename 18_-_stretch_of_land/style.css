@@ -1,0 +1,101 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+canvas {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+
+.description {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    color: #fff;
+}
+
+#title {
+    font-family: 'Open Sans Light', sans-serif;
+    font-size: 5vw;
+    letter-spacing: 0.25vw;
+    position: relative;
+    color: #fff;
+    left: 2%;
+    top: 62%;
+    opacity: 0;
+}
+
+#codevember {
+    font-family: 'Open Sans Light', sans-serif;
+    font-size: 1vw;
+    letter-spacing: 0.25vw;
+    position: relative;
+    color: #fff;
+    left: 2%;
+    margin-right: 25%;
+    top: 60%;
+    opacity: 0;
+}
+
+/*
+ * INTRO 
+ *
+ */
+
+#title.intro {
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    left: 2%;
+    top: 50%;
+    opacity: 1;
+}
+
+#codevember.intro {
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    left: 2%;
+    margin-right: 25%;
+    top: 50%;
+    opacity: 1;
+}
+
+/*
+ * OUTRO
+ *
+ */
+
+#title.outro {
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    opacity: 0;
+}
+
+#codevember.outro {
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    opacity: 0;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "xyz_codevember",
+  "version": "0.0.1",
+  "description": "",
+  "main": "sketch/sketch.js",
+  "scripts": {
+    "build": "babel 03_-_deep/src -d 03_-_deep/public",
+    "lol": "node ./node_modules/@babel/cli/bin/babel.js 13_-_meteor_shower/src -d 13_-_meteor_shower/public -w"
+  },
+  "author": "Giovanni Muzio - Kesson",
+  "license": "ISC",
+  "dependencies": {
+    "p5": "^0.10.2",
+    "three": "^0.110.0",
+    "web-audio-beat-detector": "^7.0.72"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "ascjsify": "^1.0.0",
+    "browser": "^0.2.6",
+    "browser-resolve": "^1.11.3",
+    "esmify": "^2.1.1",
+    "uglify": "^0.1.5"
+  }
+}
