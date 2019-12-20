@@ -63,7 +63,7 @@ const PostProcessing = function (w_, h_, renderer, scene, camera) {
     this.bloomPass.radius = params.bloomRadius;
 
     this.pass = new ShaderPass(this.drawShader);
-    this.composer.addPass(this.bloomPass);
+    // this.composer.addPass(this.bloomPass);
     this.composer.addPass(this.pass);
 
     this.runShader = function () {

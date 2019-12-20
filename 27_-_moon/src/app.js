@@ -22,33 +22,33 @@ var particlesAmount;
 
 function init() {
 
-    setTimeout(function () {
-        document.getElementById('title').classList.add('intro');
+    // setTimeout(function () {
+    //     document.getElementById('title').classList.add('intro');
 
-        setTimeout(function () {
-            document.getElementById('synopsis').classList.add('intro');
+    //     setTimeout(function () {
+    //         document.getElementById('synopsis').classList.add('intro');
 
-            setTimeout(function () {
-                document.getElementById('codevember').classList.add('intro');
-            }, 250);
+    //         setTimeout(function () {
+    //             document.getElementById('codevember').classList.add('intro');
+    //         }, 250);
 
-        }, 250);
+    //     }, 250);
 
-    }, 250);
+    // }, 250);
 
-    setTimeout(function () {
-        document.getElementById('title').classList.add('outro');
+    // setTimeout(function () {
+    //     document.getElementById('title').classList.add('outro');
 
-        setTimeout(function () {
-            document.getElementById('synopsis').classList.add('outro');
+    //     setTimeout(function () {
+    //         document.getElementById('synopsis').classList.add('outro');
 
-            setTimeout(function () {
-                document.getElementById('codevember').classList.add('outro');
-            }, 250);
+    //         setTimeout(function () {
+    //             document.getElementById('codevember').classList.add('outro');
+    //         }, 250);
 
-        }, 250);
+    //     }, 250);
 
-    }, 8000);
+    // }, 8000);
 
     scene = new THREE.Scene();
 
